@@ -20,6 +20,9 @@ function customSort(a,b){
 
 }
 
+
+window.onload = function(){
+
 	const sortedBands = bands.sort(customSort);
 
     const ulElement = document.createElement('ul');
@@ -35,3 +38,5 @@ ulElement.style.margin = 'auto';
 ulElement.style.width = '50%';
 
 document.body.appendChild(ulElement);
+}
+	
