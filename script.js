@@ -23,7 +23,7 @@ function customSort(a,b){
 	const sortedBands = bands.sort(customSort);
 
     const ulElement = document.createElement('ul');
-	ulElement.id = 'band';
+	ulElement.id = 'bands';
 
 	sortedBands.forEach(band => {
 
